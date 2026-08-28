@@ -1,0 +1,14 @@
+# working directory: extracted files, unpacked streams, rendered images
+_work/
+__pycache__/
+*.pyc
+
+# no game assets, audio, graphics or code of any kind
+*.iso
+*.wav
+*.cue
+*.bin
+*.adf
+*.png
+*.raw
+*.pal

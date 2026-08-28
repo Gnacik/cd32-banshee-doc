@@ -1,0 +1,110 @@
+=== PRIMARY VOLUME DESCRIPTOR ===
+image bytes            3631104 (1773 sectors of 2048)
+descriptor type        1
+standard identifier    'CD001'
+version                1
+system identifier      'CDTV                            '
+volume identifier      'Banshee\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+volume space size      1687 sectors (LE) / 1687 (BE)
+volume set size        1
+volume sequence        1
+logical block size     2048
+path table size        44
+L path table           20
+L path table optional  20
+M path table           19
+M path table optional  19
+root dir extent        22, 2048 bytes
+root dir date          1978-01-01 00:00:00 +0
+volume set identifier  '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+publisher identifier   'Core\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+data preparer          'D J Pocock - ISOCD 1.04 by Pantaray, Inc. USA -\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+application identifier 'Banshee CD32\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+copyright file         '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+abstract file          '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+bibliographic file     '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+creation date          1994-07-08 13:16:10.00 +0
+modification date      None
+expiration date        None
+effective date         None
+file structure version 1
+
+=== STRING FIELD PADDING ===
+system identifier        space        value='CDTV'
+volume identifier        NUL          value='Banshee'
+volume set identifier    empty(NUL)   value=''
+publisher                NUL          value='Core'
+data preparer            NUL          value='D J Pocock - ISOCD 1.04 by Pantaray, Inc. USA -'
+application identifier   NUL          value='Banshee CD32'
+
+=== DESCRIPTOR SECTORS ===
+sector 17 == sector 16: True
+sector 18 type 255 id 'CD001'
+
+=== .TM POINTER ===
+{'tag_offset': 888, 'constant': 20, 'length': 2048, 'lba': 21, 'fs_record': True}
+whole block          sha1 c5ffcef2a5e33d2df606185823cd95d1c174d65f
+banner 0x000..0x44C  sha1 8d84115154d70360b3469acc99cdad3db0ed2c92
+object 0x44C..0x7B8  sha1 690aae24a96b69659066e691d0b07db301260572
+
+=== DIRECTORIES (4) ===
+  /                        lba     22    2048 bytes
+  /C                       lba     25    2048 bytes
+  /icons                   lba   1454    2048 bytes
+  /s                       lba     23    2048 bytes
+
+=== DIRECTORY RECORDS FOR DIRECTORIES ===
+  /C                       1994-07-08 13:14:37 +0
+  /icons                   1994-07-08 13:13:49 +0
+  /s                       1994-07-08 13:13:22 +0
+
+=== FILES (45) ===
+       0         0  1978-01-01 00:00:00 +0   /scrpt2
+       0         0  1978-01-01 00:00:00 +0   /C/Installer
+      24       230  1994-06-22 14:34:18 +0   /s/startup-sequence
+      26     13200  1993-11-11 09:50:58 +0   /C/SetPatch
+      33      3220  1993-06-17 14:40:04 +0   /C/Assign
+      35      4432  1993-06-17 14:40:04 +0   /C/Execute
+      38    149524  1992-12-21 15:12:22 +0   /bans.exe
+     112     37379  1992-12-21 15:19:58 +0   /banspic1
+     131     21894  1992-12-21 15:17:49 +0   /banspic2
+     142    109557  1992-12-21 15:13:20 +0   /bossc
+     196     43918  1992-12-21 15:13:28 +0   /bossf
+     218      3079  1992-12-21 15:13:54 +0   /core
+     220      3579  1992-12-21 15:12:48 +0   /endseq1.001
+     222      3574  1992-12-21 15:12:49 +0   /endseq1.002
+     224      3619  1992-12-21 15:12:51 +0   /endseq1.003
+     226      4183  1992-12-21 15:12:53 +0   /endseq1.004
+     229      5130  1992-12-21 15:12:55 +0   /endseq1.005
+     232      3580  1992-12-21 15:12:57 +0   /endseq2.001
+     234      3602  1992-12-21 15:12:58 +0   /endseq2.002
+     236      3670  1992-12-21 15:13:00 +0   /endseq2.003
+     238      4284  1992-12-21 15:13:01 +0   /endseq2.004
+     241      5489  1992-12-21 15:13:04 +0   /endseq2.005
+     244    100931  1992-12-21 15:15:24 +0   /introscreen
+     294      4342  1992-12-21 15:12:26 +0   /introseq.001
+     297      8254  1992-12-21 15:12:28 +0   /introseq.002
+     302      5314  1992-12-21 15:12:30 +0   /introseq.003
+     305      6908  1992-12-21 15:12:32 +0   /introseq.004
+     309      3954  1992-12-21 15:12:34 +0   /introseq.005
+     311      7927  1992-12-21 15:12:36 +0   /introseq.006
+     315     11429  1992-12-21 15:12:39 +0   /introseq.007
+     321    272677  1992-12-21 15:14:22 +0   /level1c
+     455    158929  1992-12-21 15:14:40 +0   /level1f
+     533    281827  1992-12-21 15:17:13 +0   /level2c
+     671    163413  1992-12-21 15:16:42 +0   /level2f
+     751    248768  1992-12-21 15:17:43 +0   /level3c
+     873    156407  1992-12-21 15:19:01 +0   /level3f
+     950    216291  1992-12-21 15:19:49 +0   /level4c
+    1056    171686  1992-12-21 15:19:23 +0   /level4f
+    1140     23003  1992-12-21 15:12:47 +0   /P60.end
+    1152     16105  1992-12-21 15:12:41 +0   /P60.intro
+    1160    274764  1992-12-21 15:11:46 +0   /picture.exe
+    1295     46244  1992-12-21 15:15:10 +0   /plyrmisc
+    1318     35017  1992-12-21 15:20:06 +0   /plyrmisc4
+    1336    129459  1992-12-21 15:15:02 +0   /soundfx
+    1400    108871  1992-12-21 15:27:34 +0   /soundfx4
+
+=== SECTOR MAP (declared 1687 sectors, image 1773) ===
+  UNCLAIMED   1455..1686      232 sectors  all zero
+  overrun beyond declared: 86 sectors, all zero

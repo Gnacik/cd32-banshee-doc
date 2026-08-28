@@ -1,0 +1,416 @@
+control bytes in 0x1c840..0x1e600: 0xFC x0  0xFD x0  0xFE x68  0xFF x276
+
+--- group 1  (5 variants) ---
+  en  n
+  de  Clr
+  fr  Del
+  da  OK
+  ??  
+--- group 2  (5 variants) ---
+  en  Start Game
+  de  Spiel starten
+  fr  Commencer jeu
+  da  Start Spillet
+  ??  
+--- group 3  (5 variants) ---
+  en  Options
+  de  Options
+  fr  Options
+  da  Valg
+  ??  
+--- group 4  (5 variants) ---
+  en  English
+  de  Deutsch
+  fr  Francais
+  da  Dansk
+  ??  
+--- group 5  (5 variants) ---
+  en  View Highscores
+  de  Höchstpunktzahlen ansehen
+  fr  Meilleurs scores
+  da  Se Højskoren
+  ??  
+--- group 6  (5 variants) ---
+  en  PRESENTS
+  de  PRESENTS
+  fr  PRESENTS
+  da  PRÆSENTERER
+  ??  
+--- group 7  (5 variants) ---
+  en  On
+  de  Ein
+  fr  On
+  da  På
+  ??  
+--- group 8  (5 variants) ---
+  en  Off
+  de  Aus
+  fr  Off
+  da  Af
+  ??  
+--- group 9  (5 variants) ---
+  en  Easy
+  de  Leicht
+  fr  Facile
+  da  Nem
+  ??  
+--- group 10  (8 variants) ---
+  en  Hard
+  de  Schwierig
+  fr  Difficile
+  da  Svær
+  ??  Normal
+  ??  Joystick
+  ??  Joypad
+  ??  
+--- group 11  (5 variants) ---
+  en  Mouse
+  de  Maus
+  fr  Souris
+  da  Mus
+  ??  
+--- group 12  (5 variants) ---
+  en  Options
+  de  Optionen
+  fr  Options
+  da  Valgmuligheder
+  ??  
+--- group 13  (5 variants) ---
+  en  Player 1 uses
+  de  Spieler 1 benutzt
+  fr  Joueur 1 utilise
+  da  Spiller 1 bruger
+  ??  
+--- group 14  (5 variants) ---
+  en  Player 2 uses
+  de  Spieler 2 benutzt
+  fr  Joueur 2 utilise
+  da  Spiller 2 bruger
+  ??  
+--- group 15  (5 variants) ---
+  en  Keep players on screen
+  de  Spieler auf dem Bildschirm behalten
+  fr  Garder joueurs à l'écran
+  da  Hold spillere på skærmen
+  ??  
+--- group 16  (5 variants) ---
+  en  Difficulty level
+  de  Schwierigkeitsgrad
+  fr  Niveau de difficulté
+  da  Sværhedsgrad
+  ??  
+--- group 17  (5 variants) ---
+  en  Split powerups
+  de  Power-ups aufteilen
+  fr  Diviser power-ups
+  da  Del kraft-ops
+  ??  
+--- group 18  (5 variants) ---
+  en  Return to Main Menu
+  de  Zurück zum Hauptmenü
+  fr  Retourner au menu principal
+  da  Tilbage til hovedmenu
+  ??  
+--- group 19  (5 variants) ---
+  en  Congratulations. You have completed
+  de  Glückwunsch. Sie haben Banshees
+  fr  Félicitations. Tu as terminé
+  da  Tillykke. Du har gennemført
+  ??  
+--- group 20  (5 variants) ---
+  en  Banshee on the easiest difficulty
+  de  leichtesten Schwierigkeitsgrad geschafft.
+  fr  Banshee au niveau de difficulté le
+  da  Banshee på den nemmeste sværhedsgrad.
+  ??  
+--- group 21  (5 variants) ---
+  en  level. Now join the tough guys on
+  de  Tun Sie es jetzt den harten Jungs auf
+  fr  plus facile. Maintenant choisis
+  da  Slut dig til de rå mænner på svær
+  ??  
+--- group 22  (5 variants) ---
+  en  Hard to see the real ending.
+  de  Schwierig gleich, um das wirkliche Ende zu erleben.
+  fr  Difficile pour voir la vraie fin.
+  da  og se den rigtige slut-sekvens.
+  ??  
+--- group 23  (5 variants) ---
+  en  Congratulations, Player one. You have entered
+  de  Glückwunsch, Spieler 1. Sie sind in
+  fr  Félicitations, Joueur Un. Tu as marqué
+  da  Tillykke, spiller et. Du er kommet på
+  ??  
+--- group 24  (5 variants) ---
+  en  Congratulations, Player two. You have entered
+  de  Glückwunsch, Spieler 2. Sie sind in
+  fr  Félicitations, Joueur Deux. Tu as marqué
+  da  Tillykke, spiller to. Du er kommet på
+  ??  
+--- group 25  (5 variants) ---
+  en  the Hall of Fame. Please enter your name
+  de  der Ruhmeshalle. Bitte geben Sie Ihren Namen ein
+  fr  l'un des meilleurs scores. Entre ton nom
+  da  højskore listen. Skriv dit navn
+  ??  
+--- group 26  (5 variants) ---
+  en  Objective: Fly across
+  de  Ziel: Fliegen Sie über
+  fr  Objectif: Voler au-dessus
+  da  Formål: Flyv over
+  ??  
+--- group 27  (5 variants) ---
+  en  the Atlantikan Ocean
+  de  den Atlantikan, und zerstören
+  fr  de l'Océan Atlantikan
+  da  det Atlantiske Ocean
+  ??  
+--- group 28  (5 variants) ---
+  en  and destroy the Styx held
+  de  Sie die von Styx besetzte
+  fr  et détruire le port de Mova Scosha
+  da  og smadr den Styx besatte
+  ??  
+--- group 29  (5 variants) ---
+  en  Harbour town of Mova Scosha...
+  de  Hafenstadt Mova Scosha...
+  fr  qui est aux mains des Styx...
+  da  havneby Mova Scosha...
+  ??  
+--- group 30  (5 variants) ---
+  en  Objective: Enter Styx City
+  de  Ziel: Dringen Sie in Styx City ein,
+  fr  Objectif: Entrer dans Styx City
+  da  Formål: Træng ind i Styx City
+  ??  
+--- group 31  (5 variants) ---
+  en  and destroy the gigantic guardians...
+  de  und vernichten Sie die riesigen Wächter...
+  fr  et détruire les gigantesques gardes...
+  da  og hærg de kæmpestore vogtere...
+  ??  
+--- group 32  (5 variants) ---
+  en  Objectives: Obliterate the
+  de  Ziele: Eliminieren Sie das
+  fr  Objectifs: Eliminer le Haut
+  da  Formål: Eliminer Styx
+  ??  
+--- group 33  (5 variants) ---
+  en  Styxian High Command in their
+  de  Oberkommando von Styx in
+  fr  Commandement de Styx dans son
+  da  hovedkvarteret i deres
+  ??  
+--- group 34  (5 variants) ---
+  en  defence bunker and steal the
+  de  seinem Verteidigungsbunker,
+  fr  bunker et voler la technologie qui
+  da  forsvarsbunker og rag
+  ??  
+--- group 35  (5 variants) ---
+  en  technology required to equip your
+  de  und stehlen Sie die Technologie, die Sie brauchen, 
+  fr  permettra à ton Banshee d'effectuer
+  da  deres rumfartsteknologi
+  ??  
+--- group 36  (5 variants) ---
+  en  Banshee with spaceflight capability...
+  de  um Ihre Banshee für den Weltraumflug umzurüsten...
+  fr  des vols spatiaux...
+  da  til dig...
+  ??  
+--- group 37  (5 variants) ---
+  en  Earth is free! Blardax is fleeing
+  de  Die Erde ist frei! Blardax ist auf der
+  fr  La Terre est libre! Blardax fuit vers
+  da  Jorden er fri! Blardax smutter
+  ??  
+--- group 38  (5 variants) ---
+  en  to his command base on Veenix!
+  de  Flucht zu seinem Stützpunkt auf Veenix!
+  fr  sa base de commandement sur Veenix!
+  da  tilbage til sin base på Veenix!
+  ??  
+--- group 39  (5 variants) ---
+  en  Give chase in your redesigned
+  de  Jagen Sie ihm in Ihrer umgebauten
+  fr  Poursuis-le dans ton Banshee
+  da  Dimf efter ham i din omdesignede
+  ??  
+--- group 40  (5 variants) ---
+  en  Banshee and put an end to
+  de  Banshee nach, und machen Sie ihm
+  fr  amélioré et débarrasse-toi de
+  da  Banshee og gi' ham noen kløt
+  ??  
+--- group 41  (5 variants) ---
+  en  him once and for all..!
+  de  ein für allemal den Garaus..!
+  fr  lui une fois pour toutes..!
+  da  een gang for alle..
+  ??  
+--- group 42  (5 variants) ---
+  en  This is it - Blardax Maldrear's
+  de  Das ist sie! Blardax Maldrears
+  fr  T' y voilà! L'horrible forteresse
+  da  Så er det nu - Blardax Maldrear's
+  ??  
+--- group 43  (5 variants) ---
+  en  grisly fortress of exquisite
+  de  düstere Festung des herrlichen
+  fr  du maléfique Blardax Maldrear.
+  da  afsindigt onde og gruopvækkende
+  ??  
+--- group 44  (5 variants) ---
+  en  evil. Take it out and it's all
+  de  Bösen. Vernichten Sie sie,
+  fr  Empare-t'en et c'est la fin
+  da  fort. Smadr det og det er enden
+  ??  
+--- group 45  (5 variants) ---
+  en  over for the Styx Empire...
+  de  und das Styx-Imperium ist erledigt...
+  fr  de l'Empire Styx...
+  da  for Styx-Imperiet...
+  ??  
+--- group 46  (5 variants) ---
+  en  Earth, 1999.
+  de  Die Erde, 1999.
+  fr  Terre, 1999.
+  da  Jorden, år 1999.
+  ??  
+--- group 47  (5 variants) ---
+  en  But the Earth of a different timeline.
+  de  Doch es ist die Erde einer anderen Dimension.
+  fr  Mais la Terre d'une autre dimension temporelle.
+  da  Men jorden i  en anden dimension.
+  ??  
+--- group 48  (5 variants) ---
+  en  There are no microwave ovens
+  de  Es gibt keine Mikrowellengeräte, und
+  fr  Les fours à micro-ondes n'existent pas
+  da  Der er ingen mikroovne
+  ??  
+--- group 49  (5 variants) ---
+  en  and tv is still in black and white.
+  de  das Fernsehen ist noch schwarzweiß.
+  fr  et les télés sont encore en noir et blanc.
+  da  og fjernsynet er stadig i sort hvid.
+  ??  
+--- group 50  (6 variants) ---
+  en  Humanity lives peacefully, until...
+  de  Die Menschen leben in Frieden, bis...
+  fr  L'humanité vit en paix jusqu'à ce que...
+  da  Menneskeheden lever fredeligt indtil...
+  ??  Blardax Maldrear,
+  ??  
+--- group 51  (5 variants) ---
+  en  The evil ruler of the Styx Empire,
+  de  Der teuflische Herrscher über das Styx-Imperium,
+  fr  le dirigeant maléfique de l'Empire Styx,
+  da  Styx-Imperiets ondskabsfulde hersker,
+  ??  
+--- group 52  (5 variants) ---
+  en  has an exquisitely evil idea...
+  de  hat eine herrlich böse Idee...
+  fr  ait une idée délicieusement diabolique...
+  da  har fået sig en ufatteligt ond ide...
+  ??  
+--- group 53  (5 variants) ---
+  en  Wouldn't it be great if he could
+  de  Wäre es nicht wunderbar, wenn er
+  fr  Ne serait-il pas génial de s'emparer
+  da  Ville det ikke bare være herligt hvis han
+  ??  
+--- group 54  (5 variants) ---
+  en  take over good old planet Earth?
+  de  die gute alte Erde eroberte?
+  fr  de cette bonne vieille planète Terre?
+  da  kunne erobre vores gamle jord?
+  ??  
+--- group 55  (5 variants) ---
+  en  The invasion begins...
+  de  Die Invasion beginnt...
+  fr  L'invasion commence...
+  da  Invasionen begynder...
+  ??  
+--- group 56  (5 variants) ---
+  en  ...And only one man stands
+  de  ...Und nur ein Mann steht Blardax und
+  fr  ...Et un seul homme se met en travers du
+  da  ...og kun een mand står overmeget
+  ??  
+--- group 57  (5 variants) ---
+  en  in the way of Blardax's
+  de  seinem skrupellosem Verlangen nach
+  fr  chemin de Blardax et de sa soif
+  da  i vejen for Blardax's overdrevne
+  ??  
+--- group 58  (5 variants) ---
+  en  relentless lust for world domination.
+  de  der Weltherrschaft im Weg.
+  fr  de domination mondiale.
+  da  storhedsvanvid.
+  ??  
+--- group 59  (5 variants) ---
+  en  His name: Sven Svardensvart!
+  de  Sein Name: Sven Svardensvart!
+  fr  Son nom: Sven Svardensvart!
+  da  Hans navn: Sven Svardensvart!
+  ??  
+--- group 60  (5 variants) ---
+  en  Sven has good reason to hate the Styx invaders.
+  de  Sven hat allen Grund, die Eindringlinge
+  fr  Sven a de bonnes raisons de haïr les envahisseurs
+  da  Sven har god grund til at hade Styx-Imperiet.
+  ??  
+--- group 61  (5 variants) ---
+  en  His father was murdered by them for refusing to
+  de  zu hassen. Sein Vater wurde von den Styx ermordet,
+  fr  Styx. Ils ont assassiné son père car il refusait
+  da  Hans far blev møvet af dem fordi han ikke gad
+  ??  
+--- group 62  (5 variants) ---
+  en  invent the microwave oven.
+  de  als er sich weigerte, die Mikrowelle zu erfinden.
+  fr  d'inventer le four à micro-ondes.
+  da  opfinde mikroovnen.
+  ??  
+--- group 63  (5 variants) ---
+  en  Sven escapes to the last free place on Earth
+  de  Sven flieht zum letzten freien Ort der Erde
+  fr  Sven se réfugie dans le seul endroit libre de la Terre
+  da  Sven undslipper til det sidste frie sted på jorden
+  ??  
+--- group 64  (5 variants) ---
+  en  and swiftly builds an incredible flying machine
+  de  und baut rasch ein unglaubliches Fluggerät
+  fr  et construit rapidement une incroyable machine volante
+  da  og temmelig hurtigt bygger han en overvild flyver
+  ??  
+--- group 65  (5 variants) ---
+  en  with big guns and rockets
+  de  mit Riesengeschützen und Raketen
+  fr  avec d'énormes canons et fusées
+  da  med store maskinkanoner og raketter
+  ??  
+--- group 66  (5 variants) ---
+  en  and things.
+  de  und lauter so Sachen.
+  fr  entre autres.
+  da  og ting.
+  ??  
+--- group 67  (5 variants) ---
+  en  He calls this plane... The Banshee
+  de  Er nennt dieses Flugzeug... Die Banshee
+  fr  Il appelle cet avion... le Banshee
+  da  Han døber sin flyver... Bansheen
+  ??  
+--- group 68  (5 variants) ---
+  en  Thus begins his one-man rebellion against
+  de  Damit beginnt seine Ein-Mann-Rebellion gegen
+  fr  Ainsi commence sa rébellion solitaire contre
+  da  Derpå begynder han sit en-mands oprør mod
+  ??  
+--- group 69  (1 variants) ---
+  en  the exqui

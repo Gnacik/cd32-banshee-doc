@@ -1,0 +1,41 @@
+#    offset   size       disk flag  path
+1    0x00280e 81920      2    0x01  banshee2:core
+2    0x002822 147912     2    0x01  banshee2:plyrmisc
+3    0x00283a 153946     2    0x01  banshee2:soundfx
+4    0x002852 487944     2    0x01  banshee2:level1c
+5    0x00286a 325868     2    0x01  banshee2:level1f
+6    0x002882 500136     3    0x01  banshee3:level2c
+7    0x00289a 336436     3    0x01  banshee3:level2f
+8    0x0028b2 469264     3    0x01  banshee3:level3c
+9    0x0028ca 342238     4    0x01  banshee4:level3f
+10   0x0028e2 399448     4    0x01  banshee4:level4c
+11   0x0028fa 309668     4    0x01  banshee4:level4f
+12   0x002912 92644      4    0x01  banshee4:plyrmisc4
+13   0x00292c 153946     4    0x01  banshee4:soundfx4
+14   0x002944 222488     1    0x01  banshee1:bossc
+15   0x00295a 76416      1    0x01  banshee1:bossf
+16   0x002970 100932     2    0x01  banshee2:introscreen
+17   0x00298c 39932      3    0x01  banshee3:banspic2
+18   0x0029a4 37380      4    0x01  banshee4:banspic1
+19   0x0029bc 110000     1    0x01  banshee1:p60.end
+20   0x0029d4 10960      1    0x01  banshee1:endseq1.001
+21   0x0029f0 10960      1    0x01  banshee1:endseq1.002
+22   0x002a0c 10960      1    0x01  banshee1:endseq1.003
+23   0x002a28 10960      1    0x01  banshee1:endseq1.004
+24   0x002a44 10960      1    0x01  banshee1:endseq1.005
+25   0x002a60 10960      1    0x01  banshee1:endseq2.001
+26   0x002a7c 10960      1    0x01  banshee1:endseq2.002
+27   0x002a98 10960      1    0x01  banshee1:endseq2.003
+28   0x002ab4 10960      1    0x01  banshee1:endseq2.004
+29   0x002ad0 10960      1    0x01  banshee1:endseq2.005
+30   0x002aec 141492     1    0x01  banshee1:p60.intro
+31   0x002b06 4400       1    0x01  banshee1:introseq.001
+32   0x002b22 8300       1    0x01  banshee1:introseq.002
+33   0x002b3e 5400       1    0x01  banshee1:introseq.003
+34   0x002b5a 7000       1    0x01  banshee1:introseq.004
+35   0x002b76 4000       1    0x01  banshee1:introseq.005
+36   0x002b92 8000       1    0x01  banshee1:introseq.006
+37   0x002bae 11500      1    0x01  banshee1:introseq.007
+
+37 records, 4688210 bytes of buffer in total
+trailing name at 0x002bca, with NO record header: 'bans1:flev'

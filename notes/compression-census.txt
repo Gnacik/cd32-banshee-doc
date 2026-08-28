@@ -1,0 +1,52 @@
+file                     on disc container                 unpacked      used   use%  notes
+P60.end                    23003 RNC ProPack method 1         33512     33510 100.0%  m1 ulen=33512 plen=22985 leeway=0 chunks=3  CRC ok
+P60.intro                  16105 RNC ProPack method 1         24730     24728 100.0%  m1 ulen=24730 plen=16087 leeway=0 chunks=3  CRC ok
+bans.exe                  149524 AmigaDOS hunk executable                             
+banspic1                   37379 RNC ProPack method 1        164864    148002  89.8%  m1 ulen=164864 plen=37361 leeway=0 chunks=14  CRC ok
+banspic2                   21894 RNC ProPack method 1        164864    119760  72.6%  m1 ulen=164864 plen=21876 leeway=0 chunks=14  CRC ok
+bossc                     109557 RNC ProPack method 1        222488    222468 100.0%  m1 ulen=222488 plen=109539 leeway=0 chunks=19  CRC ok
+bossf                      43918 RNC ProPack method 1         76416     76416 100.0%  m1 ulen=76416 plen=43900 leeway=1 chunks=7  CRC ok
+core                        3079 RNC ProPack method 1         81920     49657  60.6%  m1 ulen=81920 plen=3061 leeway=0 chunks=8  CRC ok
+endseq1.001                 3579 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=3561 leeway=0 chunks=4  CRC ok
+endseq1.002                 3574 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=3556 leeway=0 chunks=4  CRC ok
+endseq1.003                 3619 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=3601 leeway=0 chunks=4  CRC ok
+endseq1.004                 4183 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=4165 leeway=0 chunks=4  CRC ok
+endseq1.005                 5130 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=5112 leeway=0 chunks=4  CRC ok
+endseq2.001                 3580 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=3562 leeway=0 chunks=4  CRC ok
+endseq2.002                 3602 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=3584 leeway=0 chunks=4  CRC ok
+endseq2.003                 3670 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=3652 leeway=0 chunks=4  CRC ok
+endseq2.004                 4284 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=4266 leeway=0 chunks=4  CRC ok
+endseq2.005                 5489 RNC ProPack method 1         40960     31950  78.0%  m1 ulen=40960 plen=5471 leeway=0 chunks=4  CRC ok
+introscreen               100931 RNC ProPack method 1        164864    164864 100.0%  m1 ulen=164864 plen=100913 leeway=2 chunks=14  CRC ok
+introseq.001                4342 RNC ProPack method 1         40960     40854  99.7%  m1 ulen=40960 plen=4324 leeway=0 chunks=4  CRC ok
+introseq.002                8254 RNC ProPack method 1         40960     34506  84.2%  m1 ulen=40960 plen=8236 leeway=0 chunks=4  CRC ok
+introseq.003                5314 RNC ProPack method 1         40960     32369  79.0%  m1 ulen=40960 plen=5296 leeway=0 chunks=4  CRC ok
+introseq.004                6908 RNC ProPack method 1         40960     31466  76.8%  m1 ulen=40960 plen=6890 leeway=0 chunks=4  CRC ok
+introseq.005                3954 RNC ProPack method 1         40960     35300  86.2%  m1 ulen=40960 plen=3936 leeway=0 chunks=4  CRC ok
+introseq.006                7927 RNC ProPack method 1         40960     34182  83.5%  m1 ulen=40960 plen=7909 leeway=0 chunks=4  CRC ok
+introseq.007               11429 RNC ProPack method 1         40960     36574  89.3%  m1 ulen=40960 plen=11411 leeway=0 chunks=4  CRC ok
+level1c                   272677 RNC ProPack method 1        487644    487644 100.0%  m1 ulen=487644 plen=272659 leeway=0 chunks=40  CRC ok
+level1f                   158929 RNC ProPack method 1        325868    325868 100.0%  m1 ulen=325868 plen=158911 leeway=0 chunks=27  CRC ok
+level2c                   281827 RNC ProPack method 1        500136    499973 100.0%  m1 ulen=500136 plen=281809 leeway=0 chunks=41  CRC ok
+level2f                   163413 RNC ProPack method 1        336436    336432 100.0%  m1 ulen=336436 plen=163395 leeway=0 chunks=28  CRC ok
+level3c                   248768 RNC ProPack method 1        469264    469260 100.0%  m1 ulen=469264 plen=248750 leeway=0 chunks=39  CRC ok
+level3f                   156407 RNC ProPack method 1        342238    342238 100.0%  m1 ulen=342238 plen=156389 leeway=0 chunks=28  CRC ok
+level4c                   216291 RNC ProPack method 1        399448    399305 100.0%  m1 ulen=399448 plen=216273 leeway=0 chunks=33  CRC ok
+level4f                   171686 RNC ProPack method 1        309668    309668 100.0%  m1 ulen=309668 plen=171668 leeway=0 chunks=26  CRC ok
+picture.exe               274764 AmigaDOS hunk executable                             
+plyrmisc                   46244 RNC ProPack method 1        147912    147908 100.0%  m1 ulen=147912 plen=46226 leeway=0 chunks=13  CRC ok
+plyrmisc4                  35017 RNC ProPack method 1         92444     92440 100.0%  m1 ulen=92444 plen=34999 leeway=0 chunks=8  CRC ok
+scrpt2                         0 EMPTY FILE                                           
+soundfx                   129459 RNC ProPack method 1        153946    153945 100.0%  m1 ulen=153946 plen=129441 leeway=2 chunks=13  CRC ok
+soundfx4                  108871 RNC ProPack method 1        128584    128567 100.0%  m1 ulen=128584 plen=108853 leeway=0 chunks=11  CRC ok
+C/Assign                    3220 AmigaDOS hunk executable                             
+C/Execute                   4432 AmigaDOS hunk executable                             
+C/Installer                    0 EMPTY FILE                                           
+C/SetPatch                 13200 AmigaDOS hunk executable                             
+s/startup-sequence           230 none                                                 
+
+files                 45
+packed (RNC)          37
+bytes on disc         2879663
+bytes unpacked (RNC)  5323566
+bytes used (RNC)      5097404  (95.8% of unpacked)

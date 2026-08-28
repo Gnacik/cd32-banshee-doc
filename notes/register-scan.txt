@@ -1,0 +1,73 @@
+=== absolute  move.w #imm,$00DFF0xx  ===
+  $DFF000 BLTDDAT    x15
+  $DFF002 DMACONR    x74
+  $DFF004 VPOSR      x3
+  $DFF005 $005       x3
+  $DFF006 VHPOSR     x37
+  $DFF00A JOY0DAT    x5
+  $DFF00C JOY1DAT    x5
+  $DFF016 POTGOR     x1
+  $DFF01C INTENAR    x1
+  $DFF040 BLTCON0    x2
+  $DFF044 BLTAFWM    x2
+  $DFF050 BLTAPTH    x2
+  $DFF054 BLTDPTH    x2
+  $DFF058 BLTSIZE    x2
+  $DFF064 BLTAMOD    x2
+  $DFF07C DENISEID   x1
+  $DFF080 COP1LCH    x15
+  $DFF084 COP2LCH    x12
+  $DFF096 DMACON     x46
+  $DFF09A INTENA     x10
+  $DFF09C INTREQ     x5
+  $DFF0A0 AUD0LCH    x1
+  $DFF0A8 AUD0VOL    x2
+  $DFF0B0 AUD1LCH    x1
+  $DFF0B8 AUD1VOL    x2
+  $DFF0C0 AUD2LCH    x1
+  $DFF0C8 AUD2VOL    x2
+  $DFF0D0 AUD3LCH    x1
+  $DFF0D8 AUD3VOL    x2
+  total 257 in 29 distinct registers
+
+=== base loads of $DFF000 ===
+  0x003f7c  lea #$dff000,a6
+  0x00440a  lea #$dff000,a6
+  0x004b9c  lea #$dff000,a6
+  0x004bfc  lea #$dff000,a6
+  0x0050f2  lea #$dff000,a6
+  0x005324  lea #$dff000,a6
+  0x005506  lea #$dff000,a6
+  0x00604a  lea #$dff000,a6
+  0x0065aa  lea #$dff000,a6
+  0x00a096  lea #$dff000,a1
+  0x00e31a  lea #$dff000,a6
+  0x00e3f0  lea #$dff000,a6
+  0x00e95a  lea #$dff000,a6
+  0x00fa34  lea #$dff000,a6
+  0x00fa6e  lea #$dff000,a6
+  15 base loads
+
+=== registers reached as d16(aN) after a base load ===
+  $DFF00E CLXDAT     x1
+  $DFF010 ADKCONR    x1
+  $DFF039 $039       x1
+  $DFF040 BLTCON0    x8
+  $DFF042 BLTCON1    x1
+  $DFF044 BLTAFWM    x4
+  $DFF048 BLTCPTH    x9
+  $DFF04C BLTBPTH    x4
+  $DFF050 BLTAPTH    x14
+  $DFF054 BLTDPTH    x18
+  $DFF058 BLTSIZE    x20
+  $DFF060 BLTCMOD    x3
+  $DFF064 BLTAMOD    x6
+  $DFF066 BLTDMOD    x3
+  $DFF096 DMACON     x2
+  $DFF09A INTENA     x3
+  $DFF09C INTREQ     x3
+  $DFF0A8 AUD0VOL    x2
+  $DFF0B8 AUD1VOL    x2
+  $DFF0C8 AUD2VOL    x2
+  $DFF0D8 AUD3VOL    x2
+  total 109 accesses, 21 distinct registers
