@@ -135,7 +135,7 @@ were found). Details in
 3. The CD adds developer cheats. The text one of them shows is already in the
    floppy data, so they were either removed from the floppy release or added
    for the CD; this does not settle direction.
-5. Dates: the CD master is 17 minutes after the link stamp; files on both
+4. Dates: the CD master is 17 minutes after the link stamp; files on both
    media carry the wrong 1992-12-21 clock, so file dates do not order the
    builds.
 
