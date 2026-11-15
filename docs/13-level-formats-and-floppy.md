@@ -3,24 +3,28 @@
 Findings added after the original pipeline: the level file formats read from
 the code that consumes them, the palettes the picture files do not carry, and
 a comparison against the A1200 floppy release that settles three of the open
-questions. Addresses are Ghidra addresses with hunk 0 loaded at `0x21f000`
-(file offset = address − `0x21f000` + `0x34`).
+questions. Addresses were originally given as Ghidra addresses with hunk 0
+loaded at `0x21f000`; **(2026) they are now written in the repository
+convention of [00-overview.md](00-overview.md)** — `hunk0+N` (file offset
+`N + 0x34`). Ghidra `FUN_xxxxxx` names are kept for searching; subtract
+`0x21f000` for the hunk-0 offset.
 
 ## Palettes that are not in the files
 
 | Data | Palette | Format |
 |---|---|---|
-| `introseq.*`, `endseq*.*` (320×256, 4 planes, interleaved) | `bans.exe` @ `0x2229dc`, 16 entries | one word per channel, R,G,B, 8 bits in the low byte |
-| `core` (640×256, 4 planes, interleaved) | `bans.exe` @ `0x22297c`, 16 entries | same |
+| `introseq.*`, `endseq*.*` (320×256, 4 planes, interleaved) | `bans.exe` @ `hunk0+0x39DC`, 16 entries | one word per channel, R,G,B, 8 bits in the low byte |
+| `core` (640×256, 4 planes, interleaved) | `bans.exe` @ `hunk0+0x397C`, 16 entries | same |
 | level graphics | `levelNf` + field `+0x16`, **128** entries | same |
 
-The intro player fades from the 16-entry table at `0x222ac6` (every entry
-`0,4,0x19`, a dark blue) to the sepia table at `0x2229dc` (`FUN_0022318e`).
+The intro player fades from the 16-entry table at `hunk0+0x3AC6` (every entry
+`0,4,0x19`, a dark blue) to the sepia table at `hunk0+0x39DC`
+(`FUN_0022318e` = `hunk0+0x418E`).
 
 ## `levelNc` (chip RAM)
 
 Five longwords, offsets from the start of the file. The level initialiser
-(`0x22e676`) converts them to pointers and stores them in the `levelNf`
+(`hunk0+0xF676`) converts them to pointers and stores them in the `levelNf`
 structure:
 
 | `levelNc` header | → `levelNf` field | Contents |
@@ -28,8 +32,8 @@ structure:
 | `[0]` | `+0x2c` | sample table: 16-byte records `{offset.l, length-in-words.w, loop.w, …}` followed by 8-bit signed PCM |
 | `[1]` | `+0x40` | status-panel graphics (copied, `0x810` longwords) |
 | `[2]` | `+0x20` | **bob bank** |
-| `[3]` | `+0x48` | realigned to 8 bytes at init |
-| `[4]` | `+0x4c` | optional, realigned to 8 bytes |
+| `[3]` | `+0x48` | realigned to 8 bytes at init; **identified (2026)**: boss/mid-boss AGA sprite blocks, a mask set (L3) or the one-bit light-layer sheet (L4, boss) — [16-levels-and-bosses.md](16-levels-and-bosses.md) |
+| `[4]` | `+0x4c` | optional, realigned to 8 bytes; **identified (2026)**: boss and mid-boss AGA sprite blocks (null on L1 and L3) — [16-levels-and-bosses.md](16-levels-and-bosses.md) |
 
 `soundfx` and `soundfx4` use the same 16-byte sample records, offsets
 relative to the start of the file. No sample rate is stored; callers pass the
@@ -71,8 +75,8 @@ directory entry is a longword: bits 0–17 are a word offset from the directory
 to the tile data; bits 31–18 hold 2 bits per plane — `00` sixteen data words,
 `01` all ones, `10` all zeros, `11` one word repeated sixteen times.
 
-The tile stream is decoded by a coroutine at `0x22d61e` (called through
-`FUN_0022d614`, one tile number per call). Control byte `b`:
+The tile stream is decoded by a coroutine at `hunk0+0xE61E` (called through
+`FUN_0022d614` = `hunk0+0xE614`, one tile number per call). Control byte `b`:
 
 | `b` | Meaning |
 |---|---|
@@ -87,7 +91,7 @@ The tile stream is decoded by a coroutine at `0x22d61e` (called through
 Tiles fill rows of 24 (384 pixels) from right to left, rows from the bottom of
 the level upwards (`FUN_0022cc28`, `FUN_0022ce72`). Stream lengths: level 1
 23,232 tiles (968 rows), level 2 22,320, level 3 26,256, level 4 24,048, boss
-1,584. The scroller can rewind the decoder state (`0x22d860`) to repeat a
+1,584. The scroller can rewind the decoder state (`hunk0+0xE860`) to repeat a
 stretch, so the linear decode is the level's material, not its exact
 on-screen length.
 
@@ -100,11 +104,16 @@ position minus the segment base equals `trigger`.
 `+0x0e` is a table of longwords indexed by `type×4`, each an offset (from the
 start of `levelNf`) to a type definition: script offset, flags, an x/y offset
 pair, a word, and a path offset (both offsets relative to `+0x12`).
+**(2026)** The "path offset" is the **death script** (`SETPROG` field
+`0x2c`), and the "script offset" is the animation program; the movement
+program follows the 12-byte definition. Full layout:
+[14-enemy-vm.md](14-enemy-vm.md).
 
 Scripts are word opcodes, each a byte offset into a 45-entry jump table at
-`0x22f8d2`. Opcode `0` sets the animation frame: `[0][delay][N][bob…]`. Opcode
+`hunk0+0x108D2`. Opcode `0` sets the animation frame: `[0][delay][N][bob…]`. Opcode
 `0x20` dispatches again through its own sub-table. The full instruction set is
-not decoded here.
+not decoded here; **(2026)** it is in [14-enemy-vm.md](14-enemy-vm.md)
+(45 opcodes, 127 sub-ops) and [15-enemy-movement.md](15-enemy-movement.md).
 
 ## The floppy release (A1200, four disks)
 
@@ -122,11 +131,18 @@ not decoded here.
   on the floppy and zero on the CD.
 * The floppy file dates are also **1992-12-21**, 15:19–15:31 (open question 2):
   the wrong clock belongs to the machine the game files came from, not to the
-  CD mastering session.
+  CD mastering session. *(2026: disk 1's files are 15:15:52–15:18:09; see
+  [12-open-questions.md](12-open-questions.md) Q2.)*
 * Floppy `picture.exe` is not crunched; its 327,744-byte bitmap hunk is
   byte-identical to the CD's decrunched hunk 3. Its copper list starts with
   every colour at zero (fade-in), the CD's has the colours pre-filled; the
   palette table at `0x2c8` is identical.
+  **Correction (2026):** not a fade-in — the code is identical and has no
+  fade. The floppy's zeros are the untouched assembler output; the CD copy is
+  a **separate build saved from memory after it had run** (colours, sprite and
+  plane pointers filled in, frame counter 727 instead of 250). See
+  [08-picture-exe.md](08-picture-exe.md) and
+  [12-open-questions.md](12-open-questions.md) Q8.
 * Floppy `bans.exe` carries the same link stamp, `8/7-94 12:59`, with
   `RNC Beta` where the CD has `CD32 slut`. Its code hunk is RNC method 1,
   106,824 bytes unpacked against the CD's 97,500. Strings only in the floppy
@@ -134,10 +150,14 @@ not decoded here.
   disks 2–4) and a one-/two-button option in five languages, including Danish
   `Een knap` / `To knapper`. Only in the CD build: `cd.device`,
   `lowlevel.library`, `Joypad` / `Joystick`. The CD replaces the in-game
-  module with the two Red Book tracks.
+  module with the two Red Book tracks. **Correction (2026):** it is the
+  floppy's **menu** music, not in-game music; nothing plays music during
+  gameplay on either medium ([18-runtime.md](18-runtime.md) §5.1). Full build
+  comparison: [19-floppy-vs-cd.md](19-floppy-vs-cd.md).
 
 ## Tools
 
 In [`tools/`](../tools/): `ground.py` (tile stream and directory), `bobs.py` (bob bank),
 `map.py` (cloud layer), `spawns.py` (spawn overlay), `samples.py` (sample
-tables to WAV), `adf.py` (FFS reader).
+tables to WAV), `adf.py` (FFS reader). Script disassembly and reachability:
+`scriptdis.py` ([14-enemy-vm.md](14-enemy-vm.md)).
