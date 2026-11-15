@@ -123,8 +123,7 @@ not decoded here; **(2026)** it is in [14-enemy-vm.md](14-enemy-vm.md)
 * `scrpt2` on disk 1 is two lines, `banshee1:picture.exe` and
   `banshee1:bans.exe`. The installer appends it to the hard-disk start script,
   so **`picture.exe` was the title screen of the hard-disk installation**. The
-  same file is present in all ten Disk 1 variants examined, from unrelated
-  sources. On the CD `scrpt2` is zero bytes, so nothing runs the picture
+  same file is present in every Disk 1 dump examined. On the CD `scrpt2` is zero bytes, so nothing runs the picture
   (open question 8).
 * `/icons` on the floppy holds `banshee.info`, which the installer copies; on
   the CD the directory is empty (open question 9). `Installer` is 63,436 bytes

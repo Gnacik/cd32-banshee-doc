@@ -64,8 +64,8 @@ script base, the longword at `levelNf + 0x12`.
 Example (`level1f`, type `0x1b4`, the first wave of level 1):
 
 ```
-098c 0000 0000 0000 0018 0a70 | 0024 ff50 0168 0012 | 0014 0000 01b5 c04a | 0004 0000 fe00 0000 0009 ...
-anim  flags clip x/y 7e  death | SOUND               | SET #0x1b5 obj.4a   | MOVE 0 -512 #9
+098c 0000 0000 0000 0018 0a70 | ...
+anim  flags clip x/y 7e  death | script: SOUND, SET #0x1b5 obj.4a, MOVE 0 -512 #9, ...
 ```
 
 There are **no path tables**. The field chapter 13 calls the "path offset" is

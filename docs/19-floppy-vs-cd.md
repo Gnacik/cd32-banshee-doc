@@ -30,10 +30,8 @@ hunks and are written `fl hunkN+0x…`.
 | CD | `bans.exe` on the disc | plain hunk file, 6 hunks, 1,948 relocations |
 | Floppy | `bans.exe` from 10 variants of disk 1 | RNC ProPack method 1 self-extracting; a 612-byte stub hunk, the rest packed together with the relocation tables |
 
-Seven of the ten floppy dumps unpack to identical hunks 0–5; they differ only
-in packing and in loader files added by the people who distributed them. The
-other three are modified copies and were excluded. The majority version is
-taken as the publisher's original.
+Several dumps of disk 1 were compared. Most unpack to identical hunks 0–5;
+the majority, unmodified version is used here as the reference.
 
 Unpacked sizes:
 
@@ -111,8 +109,7 @@ no code references. Probably buffer residue saved with the image;
 ## Copy protection (floppy only)
 
 The floppy build carries a copy-protection check that the CD build does not.
-A failed check does not stop the game at start-up; the game misbehaves later
-instead. This repository does not document the protection further.
+This repository does not document the protection.
 
 ## Cheats are CD-only
 
@@ -135,9 +132,7 @@ were found). Details in
    dead loads, the control labels squatting in the `One Button` entry, a
    third control state that survives unreachable. A floppy derived from the CD
    would not look like this.
-3. The floppy's protection was added to finished code — a release step,
-   independent of the CD.
-4. The CD adds developer cheats. The text one of them shows is already in the
+3. The CD adds developer cheats. The text one of them shows is already in the
    floppy data, so they were either removed from the floppy release or added
    for the CD; this does not settle direction.
 5. Dates: the CD master is 17 minutes after the link stamp; files on both
@@ -175,4 +170,3 @@ by record.
 * The five differing bytes at the start of chip data.
 * The CD's pad REVERSE+FORWARD while paused writes keycode 0x75 (ESC); the
   case it was written for (demo or two-player exit) is unconfirmed.
-* The effect of the protection failure was read from code and not measured.
